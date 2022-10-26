@@ -261,7 +261,8 @@ endif()
 if (NOT CMAKE_VERSION VERSION_LESS 2.8.12)
     target_include_directories(yaml-cpp
         PUBLIC $<BUILD_INTERFACE:${YAML_CPP_SOURCE_DIR}/include>
-               $<INSTALL_INTERFACE:${INCLUDE_INSTALL_ROOT_DIR}>
+               $<INSTALL_INTERFACE:${INCLUDE_
+				INSTALL_ROOT_DIR}>
         PRIVATE $<BUILD_INTERFACE:${YAML_CPP_SOURCE_DIR}/src>)
 endif()
 
