@@ -6,7 +6,7 @@
      (__GNUC__ >= 4))  // GCC supports "pragma once" correctly since 3.4
 #pragma once
 #endif
-
+#define _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS 
 #include "yaml-cpp/dll.h"
 #include "yaml-cpp/node/ptr.h"
 #include <cstddef>
@@ -15,7 +15,7 @@
 #include <map>
 #include <utility>
 #include <vector>
-
+#define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING
 namespace YAML {
 namespace detail {
 struct iterator_type {
