@@ -1,12 +1,12 @@
 #ifndef VALUE_DETAIL_NODE_ITERATOR_H_62B23520_7C8E_11DE_8A39_0800200C9A66
 #define VALUE_DETAIL_NODE_ITERATOR_H_62B23520_7C8E_11DE_8A39_0800200C9A66
+#define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING
 
 #if defined(_MSC_VER) ||                                            \
     (defined(__GNUC__) && (__GNUC__ == 3 && __GNUC_MINOR__ >= 4) || \
      (__GNUC__ >= 4))  // GCC supports "pragma once" correctly since 3.4
 #pragma once
 #endif
-#define _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS 
 #include "yaml-cpp/dll.h"
 #include "yaml-cpp/node/ptr.h"
 #include <cstddef>
@@ -15,7 +15,6 @@
 #include <map>
 #include <utility>
 #include <vector>
-#define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING
 namespace YAML {
 namespace detail {
 struct iterator_type {
