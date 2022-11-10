@@ -98,7 +98,7 @@ if(VERBOSE)
 	message(STATUS "contrib_private_headers: ${contrib_private_headers}")
 endif()
 
-if (CMAKE_VERSION VERSION_LESS 2.8.12)
+if (CMAKE_VERSION VERSION_LESS 3.0.0)
     include_directories(${YAML_CPP_SOURCE_DIR}/src)
     include_directories(${YAML_CPP_SOURCE_DIR}/include)
 endif()
