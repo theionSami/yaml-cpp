@@ -1,6 +1,6 @@
 #ifndef VALUE_ITERATOR_H_62B23520_7C8E_11DE_8A39_0800200C9A66
 #define VALUE_ITERATOR_H_62B23520_7C8E_11DE_8A39_0800200C9A66
-#define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING
+
 
 #if defined(_MSC_VER) ||                                            \
     (defined(__GNUC__) && (__GNUC__ == 3 && __GNUC_MINOR__ >= 4) || \
