@@ -258,7 +258,7 @@ else()
     add_library(yaml-cpp STATIC ${library_sources})
 endif()
 
-if (NOT CMAKE_VERSION VERSION_LESS 2.8.12)
+if (NOT CMAKE_VERSION VERSION_LESS 3.0.0)
     target_include_directories(yaml-cpp
         PUBLIC $<BUILD_INTERFACE:${YAML_CPP_SOURCE_DIR}/include>
                $<INSTALL_INTERFACE:${INCLUDE_INSTALL_ROOT_DIR}>
