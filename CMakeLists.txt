@@ -25,7 +25,6 @@ option(YAML_CPP_INSTALL "Enable generation of install target" ON)
 # see http://www.cmake.org/cmake/help/cmake2.6docs.html#variable:BUILD_SHARED_LIBS
 #     http://www.cmake.org/cmake/help/cmake2.6docs.html#command:add_library
 option(YAML_BUILD_SHARED_LIBS "Build Shared Libraries" OFF)
-
 # --> Apple
 if(APPLE)
     option(YAML_APPLE_UNIVERSAL_BIN "Apple: Build universal binary" OFF)
