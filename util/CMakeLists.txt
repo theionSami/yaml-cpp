@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.1)
 
 add_sources(parse.cpp)
 add_executable(parse parse.cpp)
